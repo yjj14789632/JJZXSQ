@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.bn.activity.MainActivity" >
+
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:background="#f4f4f4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <View
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"/>
+
+    <RadioGroup
+        android:id="@+id/main_bottom_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <!--单选按钮组-->
+        <RadioButton
+            android:id="@+id/main_home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_home_selector"
+            android:drawablePadding="@dimen/main_space"
+            android:gravity="center"
+            android:text="@string/home"
+            android:textColor="@drawable/main_text_color_selector"
+            android:textSize="@dimen/main_size" />
+
+        <RadioButton
+            android:id="@+id/main_social"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_social_selector"
+            android:drawablePadding="@dimen/main_space"
+            android:gravity="center"
+            android:text="@string/social"
+            android:textColor="@drawable/main_text_color_selector"
+            android:textSize="@dimen/main_size" />
+
+        <RadioButton
+            android:id="@+id/main_me"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_me_selector"
+            android:drawablePadding="@dimen/main_space"
+            android:gravity="center"
+            android:text="@string/me"
+            android:textColor="@drawable/main_text_color_selector"
+            android:textSize="@dimen/main_size" />
+
+    </RadioGroup>
+
+</LinearLayout>

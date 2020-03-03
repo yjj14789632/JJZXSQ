@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMainNavigation">#EFEFEF</color>
+    <color name="colorTextUnselected">#707070</color>
+    <color name="colorTextSelected">#1296db</color>
+    <color name="yellow">#FFC326</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#62CC74</color>
+    <color name="black">#000000</color>
+    <color name="line">#BEBEBE</color>
+    <color name="PeriodColor">#F19EC2</color>
+    <color name="OvulationColor">#F5D4D9</color>
+    <color name="RED">#FF0000</color>
+    <color name="NextPeriod">#EE7621</color>
+    <color name="background">#EEEEEE</color>
+    <color name="maincolor">#3ca0ec</color>
+
+
+    <!--雅茹-->
+    <color name="light_blue">#00bcd4</color>
+    <color name="loginbutton">#62cc72</color>
+    <color name="registereback">#f8f8f8</color>
+    <color name="voiceText">#61cb71</color>
+    <color name="lightgray">#82858B</color>
+    <color name="nichengcolor">#a0a0a0</color>
+    <color name="agreement">#ff0000</color>
+
+    <!--王颛顼-->
+    <color name="myred">#eb4f38</color>
+    <color name="darkgray">#cccc</color>
+    <color name="color_white">#ffffff</color>
+    <color name="btn_press_color">#5677fc</color>
+    <color name="btn_pressed_color">#3ca0ec</color>
+    <color name="red">#eb4f38</color>
+    <color name="searchEditText">#FCFCFC</color>
+    <color name="searchBar">#DFFFDF</color>
+    <color name="submit_color">#54FF9F</color>
+    <color name="ccc">#33333333</color>
+    <color name="colorbg">#90ffffff</color>
+    <color name="menu_item_normal_bg">#FFFFFFFF</color>
+    <color name="menu_item_press_bg">#d6d2d3</color>
+    <color name="menu_item_divider_color">#d6d2d3</color>
+    <color name="menu_item_text_color">#FFFF4081</color>
+    <color name="friend_underline">#7B7B7B</color>
+
+    <color name="toolbar_color">#FCFCFC</color>
+    <color name="tooBar_sure_color">#FFC125</color>
+    <color name="friends_my_dynamic">#FF7F24</color>
+    <color name="blue">#4169E1</color>
+    <color name="gray">#C0C0C0</color>
+    <color name="background1">#F0FFFF</color>
+    <color name="strock">#00FF7F</color>
+
+</resources>
